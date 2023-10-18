@@ -1,9 +1,20 @@
 /*  your css code here. If applicable */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  border-radius: 50%;
+  position: relative;
+}
 #outer{
 	background-color:#ff0000;
 	width:300px;
 	height:300px;
-	border-radius:50%;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -12,7 +23,6 @@
 	background-color:#ffa500;
 	width:250px;
 	height:250px;
-	border-radius:50%;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -21,7 +31,6 @@
 	background-color:#ffff00;
 	width:200px;
 	height:200px;
-	border-radius:50%;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -30,7 +39,6 @@
 	background-color:#008000;
 	width:150px;
 	height:150px;
-	border-radius:50%;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -39,7 +47,6 @@
 	background-color:#0000ff;
 	width:100px;
 	height:100px;
-	border-radius:50%;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -48,7 +55,6 @@
 	background-color:#800080;
 	width:50px;
 	height:50px;
-	border-radius:50%;
 	display:flex;
 	align-items:center;
 	justify-content:center;
